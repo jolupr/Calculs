@@ -20,6 +20,7 @@ namespace Calculs
 
             // boucle sur le menu
             choix = 1;
+
             while (choix != 0)
             {
                 // affiche le menu et saisi le choix
@@ -28,6 +29,7 @@ namespace Calculs
                 Console.WriteLine("Quitter ........................ 0");
                 Console.Write("Choix :                          ");
                 choix = int.Parse(Console.ReadLine());
+
                 // traitement des choix
                 if (choix != 0)
                 {
